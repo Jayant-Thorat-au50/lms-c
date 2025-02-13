@@ -1,0 +1,9 @@
+
+body{
+  margin: auto;
+  max-width: 1536px;
+  position: relative;
+}
+*{
+  box-sizing: border-box;
+}

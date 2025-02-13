@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bgImg_profile{
+    background-image: url(../src/assets/profilebgImg.jpg);
+    background-size:cover;
+    background-position: center center;
+}
+
+.bgImg_Contact{
+    background-image: url(../src/assets/contactUs.jpg);
+    background-size: cover;
+}
