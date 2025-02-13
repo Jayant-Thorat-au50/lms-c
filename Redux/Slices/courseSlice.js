@@ -28,7 +28,7 @@ export const getcoursesList = createAsyncThunk("Course/getAllCourses", async () 
   } catch (error) {
     return toast.error(error?.response?.data?.message);
   }
-});
+})
 
 // add course to the course collection in the db
 export const addCourse = createAsyncThunk("course/create",async (courseData) => {
